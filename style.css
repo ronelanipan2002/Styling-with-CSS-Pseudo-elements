@@ -1,0 +1,50 @@
+body{
+    background-color: yellowgreen;
+}
+h1::first-line{
+    color: ;
+}
+h1::before{
+    content: "✨";
+    color: black;
+}
+h1::after{
+    content:"✨";
+    color: black;
+}
+
+
+p::first-line{
+color:blue;
+}
+p::first-letter{
+    font: size 2em;
+}
+p::before{
+    content: "❔";
+}
+p::after{
+    content: "❔";
+}
+
+
+button::before{
+    content: "👉";
+}
+button::after{
+    content: "👈";
+}
+button{
+    width: 120px;
+    height: 56px;
+    border-radius: 50px;
+    border: none;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
